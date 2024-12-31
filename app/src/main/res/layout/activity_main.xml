@@ -63,7 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="6dp"
             android:gravity="center"
             android:orientation="horizontal">
 
@@ -192,7 +192,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -200,25 +201,23 @@
                     android:text="Withdrawal Address"
                     android:textColor="@color/gray" />
 
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
                 <TextView
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:ellipsize="middle"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:ellipsize="end"
                     android:gravity="end"
-                    android:singleLine="true"
+                    android:maxLines="2"
                     android:text="TEj9S5QxoTfUCKUhPcp6XvZSs7h1d3iNX"
                     android:textColor="@color/white" />
 
                 <ImageButton
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:padding="2dp"
+                    android:scaleType="fitXY"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:src="@drawable/outline_file_copy_24" />
             </LinearLayout>
@@ -228,7 +227,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -236,25 +236,23 @@
                     android:text="Transaction Hash"
                     android:textColor="@color/gray" />
 
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1" />
-
                 <TextView
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="wrap_content"
-                    android:ellipsize="middle"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="8dp"
+                    android:ellipsize="end"
                     android:gravity="end"
-                    android:singleLine="true"
+                    android:maxLines="2"
                     android:text="fc6b621c0c0faa61b7cb4f906d84547f57a16d2d29861b522a022b5b556f2811"
                     android:textColor="@color/white" />
 
                 <ImageButton
-                    android:layout_width="24dp"
-                    android:layout_height="24dp"
-                    android:layout_marginStart="8dp"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:padding="2dp"
+                    android:scaleType="fitXY"
                     android:background="?attr/selectableItemBackgroundBorderless"
                     android:src="@drawable/outline_file_copy_24" />
             </LinearLayout>
