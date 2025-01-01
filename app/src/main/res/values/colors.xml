@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Base colors -->
     <color name="black">#FF000000</color>
-    <color name="dark_background">#FF000000</color>
     <color name="white">#FFFFFF</color>
-    <color name="gray">#808080</color>
+
+    <!-- Theme colors -->
+    <color name="background_primary">#FF000000</color>    <!-- Main/darkest background -->
+    <color name="background_secondary">#151515</color>    <!-- Content sections -->
+    <color name="background_separator">#1A1A1A</color>    <!-- Separator background -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Accent colors -->
     <color name="green">#4CAF50</color>
     <color name="button_background">#424242</color>
 </resources>
